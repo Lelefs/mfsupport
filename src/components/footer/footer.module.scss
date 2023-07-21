@@ -84,7 +84,12 @@
 
 @media only screen and (max-width: 772px) {
   .maintext {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .redessociais svg {
+    width: 35px;
+    height: 35px;
   }
 
   .contatos {
