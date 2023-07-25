@@ -10,6 +10,7 @@ export default function Document() {
         de Notebooks até administração de usuários e redes de grandes
         empresas no ABC e grande SP."
         />
+        <link rel="canonical" href="https://mfsupport.com.br" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta
           name="keywords"
