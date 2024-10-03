@@ -2,6 +2,7 @@
 const path = require("path");
 
 const nextConfig = {
+  output: "export",
   images: {
     unoptimized: true,
   },
