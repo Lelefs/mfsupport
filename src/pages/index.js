@@ -14,15 +14,18 @@ export default function Home() {
 
       {process.env.NODE_ENV === "production" && (
         <div className="container">
-          <Script src="https://www.googletagmanager.com/gtag/js?id=UA-169372672-2" />
+          <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-G161YSNSQT"
+          />
           <Script id="google-analytics">
             {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'UA-169372672-2');
-        `}
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+    
+              gtag('config', 'G-G161YSNSQT');
+            `}
           </Script>
         </div>
       )}
